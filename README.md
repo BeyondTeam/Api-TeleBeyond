@@ -1,6 +1,6 @@
 #Api TeleBeyond
 
-**An advanced and powerful administration bot based on TeleSeed licensed under the [GNU General Public License](https://github.com/solid021/Api-TeleBeyond/blob/master/LICENSE)**.
+**An advanced and powerful administration api bot based on TeleSeed licensed under the [GNU General Public License](https://github.com/solid021/Api-TeleBeyond/blob/master/LICENSE)**.
 
 #Don't Forget Star To Us ;)
 
