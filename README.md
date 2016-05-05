@@ -42,8 +42,6 @@ Then restart the bot.
 
 #([SoLiD](https://telegram.me/SoLiD021))
 
-#([MrHalix](https://telegram.me/MrHalix))
-
 #([Behnam](https://telegram.me/idivaNmanheB))
 
 #Team Channel :
@@ -52,10 +50,12 @@ Then restart the bot.
 
 #Special Thx To :
 
+#([MrHalix](https://telegram.me/MrHalix))
+
 Seed Team
 
-My Team
+TelePro Team
 
-And All My Friend
+And All My Friends
 
 #Good Luck :D
