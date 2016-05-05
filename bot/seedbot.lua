@@ -228,39 +228,36 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
+    "plugins",
+    "version",
 	"supergroup",
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {157059515,103214508},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[Api TeleBeyond V1.0 Open Source
+An Advanced Administration Api Bot Based On TeleSeed Written In Lua
 
-https://github.com/SEEDTEAM/TeleSeed
+Source On GitHub :
+http://GitHub.com/BeyondTeam/Api-TeleBeyond
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
+Sudo Users :
 
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
+Developer&Founder : @SoLiD021
 
-Our channels
-@teleseedch [English]
-@iranseed [persian]
+Developer&Manager : @idivanmanheb
 
-Our website 
-http://teleseed.seedteam.org/
+Team Channel :
+Telegram.me/BeyondTeam
+
+Special Thx To :
+@MrHalix
+@TeleProTeam
+And All My Friends :D
 ]],
     help_text_realm = [[
-Realm Commands:
+Realm TeleBeyond Commands:
 
 !creategroup [Name]
 Create a group
@@ -341,6 +338,9 @@ This command will send text to [group_id]
 *Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only admins and sudo can use res, setowner, commands
+TeleBeyond V1.0
+Channel : @BeyondTeam
+Source : GitHub.com/BeyondTeam/Api-TeleBeyond
 ]],
     help_text = [[
 Commands list :
@@ -387,11 +387,11 @@ return group id or user id
 !help
 Returns help text
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts]
 Lock group settings
 *rtl: Kick user if Right To Left Char. is in name*
 
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts]
 Unlock group settings
 *rtl: Kick user if Right To Left Char. is in name*
 
@@ -469,7 +469,9 @@ will return group ban list
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 *Only owner can use res,setowner,promote,demote and log commands
-
+TeleBeyond V1.0
+Channel : @BeyondTeam
+Source : GitHub.com/BeyondTeam/Api-TeleBeyond
 ]],
 	help_text_super =[[
 SuperGroup Commands:
@@ -549,15 +551,13 @@ Retireives the group link
 !rules
 Retrieves the chat rules
 
-!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!lock [links|flood|spam|Arabic|member|rtl|sticker|contacts]
 Lock group settings
-*rtl: Delete msg if Right To Left Char. is in name*
-*strict: enable strict settings enforcement (violating user will be kicked)*
+*rtl: kick user if Right To Left Char. is in name*
 
-!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts|strict]
+!unlock [links|flood|spam|Arabic|member|rtl|sticker|contacts]
 Unlock group settings
-*rtl: Delete msg if Right To Left Char. is in name*
-*strict: disable strict settings enforcement (violating user will not be kicked)*
+*rtl: kick user if Right To Left Char. is in name*
 
 !mute [all|audio|gifs|photo|video|service]
 mute group message types
@@ -589,9 +589,6 @@ Returns SuperGroup ban list
 
 !clean [rules|about|modlist|mutelist]
 
-!del
-Deletes a message by reply
-
 !public [yes|no]
 Set chat visibility in pm !chats or !chatlist commands
 
@@ -611,7 +608,9 @@ Returns group logs
 *Only moderators and owner can use block, ban, unban, newlink, link, setphoto, setname, lock, unlock, setrules, setabout and settings commands
 
 *Only owner can use res, setowner, promote, demote, and log commands
-
+TeleBeyond V1.0
+Channel : @BeyondTeam
+Source : GitHub.com/BeyondTeam/Api-TeleBeyond
 ]],
   }
   serialize_to_file(config, './data/config.lua')
