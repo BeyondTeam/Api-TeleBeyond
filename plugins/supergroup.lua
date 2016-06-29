@@ -28,7 +28,7 @@ local function check_member_super(cb_extra, success, result)
 		  lock_rtl = 'no',
 		  lock_tgservice = 'yes',
 		  lock_contacts = 'no',
-		  strict = 'yes'
+		  strict = 'no'
         }
       }
       save_data(_config.moderation.data, data)
@@ -565,7 +565,7 @@ end
 		end
 	end
   local settings = data[tostring(target)]['settings']
-  local text = "SuperGroup settings:\nLock links : "..settings.lock_link.."\nLock flood: "..settings.flood.."\nFlood sensitivity : "..NUM_MSG_MAX.."\nLock spam: "..settings.lock_spam.."\nLock Arabic: "..settings.lock_arabic.."\nLock Member: "..settings.lock_member.."\nLock RTL: "..settings.lock_rtl.."\nLock Tgservice : "..settings.lock_tgservice.."\nLock sticker: "..settings.lock_sticker.."\nPublic: "..settings.public.."\nTeleBeyond V1.0\nOpen Source\n@BeyondTeam"
+  local text = "SuperGroup settings:\nLock links : "..settings.lock_link.."\nLock flood: "..settings.flood.."\nFlood sensitivity : "..NUM_MSG_MAX.."\nLock spam: "..settings.lock_spam.."\nLock Arabic: "..settings.lock_arabic.."\nLock Member: "..settings.lock_member.."\nLock RTL: "..settings.lock_rtl.."\nLock sticker: "..settings.lock_sticker.."\nPublic: "..settings.public.."\nTeleBeyond V1.0\nOpen Source\n@BeyondTeam"
   return text
 end
 
