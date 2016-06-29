@@ -2,7 +2,7 @@
 
 **An advanced and powerful administration api bot based on TeleSeed licensed under the [GNU General Public License](https://github.com/solid021/Api-TeleBeyond/blob/master/LICENSE)**.
 
-#[Api-TeleBeyond Development[(https://telegram.me/joinchat/CVyJuz6_PJBUrk_w--1JXw)
+#[Api-TeleBeyond Development](https://telegram.me/joinchat/CVyJuz6_PJBUrk_w--1JXw)
 #Join Please :)
 
 #Don't Forget Star To Us ;)
